@@ -1,0 +1,37 @@
+@startuml polypmorphism
+
+header 
+Pertemuan 5
+endheader
+caption copyright@esaunggul.ac.id
+legend left
+    CTI211-Pemograman Berorientasi Objek 
+endlegend
+
+class Hewan {
+    __ public data__
+    + Sound()
+    --
+}
+
+class Kucing {
+    __ private data__
+    - Sound()
+}
+
+class Anjing {
+    __ private data__
+    - Sound()
+}
+
+class Sapi {
+    __ private data__
+    - Sound()
+}
+
+Hewan <|--- Kucing
+Hewan <|--- Anjing
+Hewan <|--- Sapi
+note top of Hewan : Misalkan kita punya 3 Hewan yakni Kucing, Anjing dan Sapi. Ketiganya memiliki operasi Sound yang mana dimiliki oleh class Hewan.
+
+@enduml

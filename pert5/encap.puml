@@ -1,0 +1,36 @@
+@startuml encapsulation
+
+class Persegi {
+    __ public data__
+    - lebar : int
+    - panjang : int
+    __ callback__
+    + getPanjang()
+    + getLebar()
+    __ set data__
+    + setPanjang()
+    + setLebar()
+    --
+    Source Code persegi/Main.java
+}
+
+note left of Persegi::lebar
+  Public Class
+end note
+
+note left of Persegi::getPanjang()
+  Callback Template
+end note
+
+note left of Persegi::setPanjang()
+  Logic Template
+end note
+
+header 
+Pertemuan 5
+endheader
+caption copyright@esaunggul.ac.id
+legend left
+    CTI211-Pemograman Berorientasi Objek 
+endlegend
+@enduml

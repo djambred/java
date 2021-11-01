@@ -1,0 +1,47 @@
+@startuml inheritance
+header 
+Pertemuan 5
+endheader
+caption copyright@esaunggul.ac.id
+legend left
+    CTI211-Pemograman Berorientasi Objek 
+endlegend
+
+class Hewan{
+    __ protected __
+    # nama : string
+    # kaki : int
+    # bisaTerbang : boolean
+    --
+    Source code hewan/Main.java
+}
+
+class Sapi{
+    __ public __
+    + Hewan(): param
+    __ private __
+    - nama : string
+    - jumKaki : int
+    - bisaTerbang : boolean
+    __ callback __
+    - bersuara()
+}
+
+class Perkutut{
+    __ public __
+    + Hewan(): param
+    __ private __
+    - nama : string
+    - jumKaki : int
+    - bisaTerbang : boolean
+    __ callback __
+    - bersuara()
+}
+
+
+Hewan <|--- Sapi
+Hewan <|--- Perkutut
+
+note top of Hewan : Inheritance adalah konsep OOP dimana sebuah class dapat menurunkan data member dan member function yang dimilikinya kepada class lain. Konsep inheritance dipakai untuk memanfaatkan fitur code reuse, yakni menghindari terjadinya duplikasi kode program.
+
+@enduml
