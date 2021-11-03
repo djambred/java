@@ -9,7 +9,7 @@
 **** Stack
 ***** Berisi variabel lokal
 ***** Variabel yang tersimpan di memory bisa terhapus
-*** Code
+*** Public
 **** Heap
 ***** Variabel tersimpan mengacu pada object
 ***** Harus memiliki reference
