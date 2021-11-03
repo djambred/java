@@ -1,4 +1,4 @@
-class Main {
+class SwitchCase {
     public static void main(String[] args) {
         int number = 0;
         String hari;
