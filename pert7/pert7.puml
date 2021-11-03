@@ -1,0 +1,29 @@
+@startmindmap pert7
+
+* Memory In Java
+** Method
+*** Static
+**** Heap
+***** Variabel tersimpan mengacu pada object
+***** Harus memiliki reference
+**** Stack
+***** Berisi variabel lokal
+***** Variabel yang tersimpan di memory bisa terhapus
+*** Public
+**** Heap
+***** Variabel tersimpan mengacu pada object
+***** Harus memiliki reference
+**** Stack
+***** Berisi variabel lokal
+***** Variabel yang tersimpan di memory bisa terhapus
+
+header 
+Pertemuan 7
+endheader
+title Memory in Java
+caption copyright@esaunggul.ac.id
+legend left
+    CTI211-Pemograman Berorientasi Objek 
+endlegend
+
+@endmindmap
