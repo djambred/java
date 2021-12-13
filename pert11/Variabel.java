@@ -1,5 +1,5 @@
 public class Variabel {
-    public static void variabel (String[]args){
+    public static void main (String[] args){
         int x, y, c;
         x=4&6;
         y=5>>>2;
