@@ -3,11 +3,14 @@ import java.util.ArrayList;
 
 public class ArrayL {
     public static void main(String[] args) {
-      ArrayList<String> cars = new ArrayList<String>();
-      cars.add("Volvo");
-      cars.add("BMW");
-      cars.add("Ford");
-      cars.add("Mazda");
-      System.out.println(cars);
+      ArrayList<String> text = new ArrayList<String>();
+      text.add("John");
+      text.add("Doe");
+      text.add("Lorem");
+      text.add("Ipsum");
+      text.add("Hello");
+      text.add("Word");
+      text.add("Welcome");
+      System.out.println(text);
     }
   }
