@@ -5,7 +5,7 @@ import java.sql.*;
 
 public class Crud {
 
-    static final String DB_URL = "jdbc:mysql://192.168.45.77:23306/go_echo";
+    static final String DB_URL = "jdbc:mysql://172.29.221.38:23306/go_echo";
     static final String USER = "root";
     static final String PASS = "p455w0rd";
 
